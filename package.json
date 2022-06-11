@@ -1,0 +1,28 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alnipet/Babel.git"
+  },
+  "author": "Alnipet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alnipet/Babel/issues"
+  },
+  "homepage": "https://github.com/Alnipet/Babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8"
+  }
+}
